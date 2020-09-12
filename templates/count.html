@@ -1,0 +1,13 @@
+<h1>there are {{count}} words in your text</h1>
+
+<h1>Your text</h1>
+
+{{fulltext}}
+<br />
+
+{% for word, num in book %}
+
+{{ word }} : {{ num }}
+<br />
+
+{% endfor %}
